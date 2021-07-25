@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { withRouter } from 'react-router';
 import { makeReq } from 'Utils/constants';
+import { toast } from 'react-toastify';
 
 export const AuthContext = React.createContext();
 
