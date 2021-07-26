@@ -187,8 +187,14 @@ const Register = () => {
                     className={`${classes.formSpan} ${classes.socialLink}`}
                     style={{ fontWeight: '800' }}
                   >
-                    <img src='https://img.icons8.com/fluent/48/000000/google-logo.png' />
-                    <img src='https://img.icons8.com/ios-glyphs/60/4a90e2/facebook-new.png' />
+                    <img
+                      alt='google-svg'
+                      src='https://img.icons8.com/fluent/48/000000/google-logo.png'
+                    />
+                    <img
+                      alt='fb-svg'
+                      src='https://img.icons8.com/ios-glyphs/60/4a90e2/facebook-new.png'
+                    />
                   </p>
                 </div>
                 <div>

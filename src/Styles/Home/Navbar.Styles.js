@@ -95,7 +95,6 @@ const useStyles = makeStyles((theme) => ({
     marginInline: 20,
     // width: 120,
     '&.activeLink': {
-      fontWeight: 600,
       paddingBottom: 10,
       // width: 80,
       borderBottom: `2px solid ${theme.palette.primary.main}`,

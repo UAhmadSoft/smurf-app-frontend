@@ -11,7 +11,7 @@ const ConfirmMail = ({ match, history }) => {
     (async () => {
       const { token } = match.params;
       try {
-        const res = await axios.patch(
+        await axios.patch(
           `${API_BASE_URL}/auth/confirmMail/${token}`
         );
 
@@ -38,7 +38,7 @@ const ConfirmMail = ({ match, history }) => {
         }, 1000);
       }
     })();
-  }, []);
+  }, [history, match.params]);
 
   return (
     <div>

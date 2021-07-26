@@ -1,6 +1,3 @@
-import fbSvg from 'Assets/svgs/fbSvg.svg';
-import googleSvg from 'Assets/svgs/googleSvg.svg';
-
 const { makeStyles } = require('@material-ui/core');
 
 // eslint-disable-next-line import/no-anonymous-default-export

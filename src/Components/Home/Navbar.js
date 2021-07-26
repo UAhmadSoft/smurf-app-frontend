@@ -136,6 +136,7 @@ const Navbar = ({ history }) => {
           >
             <img
               src={logo}
+              alt='logo'
               style={{ width: 50, height: 45, marginRight: 10 }}
             />
             Smurf App

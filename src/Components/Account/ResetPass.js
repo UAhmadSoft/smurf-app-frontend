@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { TextField, Grid, Button, Avatar } from '@material-ui/core';
 import styles from 'Styles/Account/Login.Styles';
 import { Link, withRouter } from 'react-router-dom';
@@ -6,7 +6,6 @@ import { Link, withRouter } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import { API_BASE_URL } from 'Utils/constants';
-import { AuthContext } from 'Contexts/AuthContext';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 
 const ResetPassword = ({ match }) => {
